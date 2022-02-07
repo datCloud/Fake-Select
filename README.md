@@ -12,4 +12,4 @@ You can create animations, effects, transtions, in short, anything that is possi
 $("[data-fake]").fakeSelect();
 ```
 
-### If you have any issue, please let me know (＾▽＾)
+### If you have any issues, please let me know (＾▽＾)
