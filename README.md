@@ -1,6 +1,8 @@
 # Fake Select [![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/datCloud/Fake-Select/blob/master/LICENSE)
 Stylize HTML select tags the easy way!
+
 Customize your select and options elements as you like.
+
 You can create animations, effects, transtions, in short, anything that is possible with CSS.
 
 **[Live demo](https://codepen.io/datCloud/pen/OJXdRvW)**
