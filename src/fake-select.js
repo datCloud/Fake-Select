@@ -1,3 +1,7 @@
+// Made with JS and much love by Cloud Andrade
+// Github: https://github.com/datCloud/
+// CodePen: https://codepen.io/datCloud
+
 (function ($) {
   $.fn.fakeSelect = function () {
     $(this).each(function (index) {
