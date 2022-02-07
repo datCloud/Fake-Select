@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Pacifico&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  color: var(--main-color);
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+
+.show-original {
+  padding: 10px;
+  font-family: "Noto Sans JP", sans-serif;
+  cursor: pointer;
+}
+
+.show-original::before {
+  content: "";
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid var(--border-color);
+  border-radius: 2px;
+  background-color: var(--bg-color);
+  margin-right: 7px;
+  transition: 0.3s;
+}
+
+.show-original.active::before {
+  background-color: var(--main-color);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  max-width: 500px;
+  width: 90%;
+}
+
+form > * {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid var(--border-color);
+  margin: 10px 0;
+  background-color: var(--bg-color);
+}
+
+form > *:focus,
+form > *:active {
+  outline: unset;
+}
+
+form [type="submit"] {
+  background: var(--main-color);
+  border: 0;
+  color: var(--bg-color);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
