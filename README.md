@@ -1,5 +1,5 @@
 # Fake Select [![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/datCloud/Fake-Select/blob/master/LICENSE)
-Stylize HTML select tags the easy way!
+**Stylize HTML select tags the easy way!**
 
 Fake Select is a jQuery plugin you can use to customize your select and options elements as you like.
 
