@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fake Select</title>
+    <link rel="stylesheet" href="../src/fake-select-example-only.css">
+    <link rel="stylesheet" href="../src/fake-select.css">
+  </head>
+  <body>
+    <h1>Fake Select</h1>
+    <p>Stylize HTML select tags the easy way</p>
+    <div class="show-original">Show original select tag</div>
+    <form>
+      <input type="text" placeholder="Name" name="name">
+      <input type="email" placeholder="E-mail" name="email">
+      <select name="cars" data-fake>
+        <option value="">Select your car model</option>
+        <option value="Volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+      <input type="submit" value="Submit">
+    </form>
+    <script src="../src/fake-select.js"></script>
+	  <script src="../src/fake-select-example-only.js"></script>
+  </body>
+</html>
