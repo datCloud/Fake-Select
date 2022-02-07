@@ -1,0 +1,55 @@
+:root {
+  --main-color: #ff392e;
+  --hover-color: #757575;
+  --text-color: #757575;
+  --border-color: #ccc;
+  --bg-color: white;
+}
+
+form .fake-select {
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form .fake-select.collapsed [data-selected]::after {
+  transform: rotate(180deg);
+}
+
+form .fake-select [data-selected]::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  border: 5px solid transparent;
+  border-bottom-width: 0;
+  border-top-color: black;
+  transition: 0.25s;
+}
+
+form .fake-select :not(.fake-select--options) {
+  position: relative;
+  font-size: 13.33px;
+  color: var(--text-color);
+  padding: 10px;
+}
+
+form .fake-select .fake-select--options {
+  position: absolute;
+  top: 100%;
+  left: -1px;
+  background-color: var(--bg-color);
+  width: 100%;
+  border: inherit;
+  border-radius: 0 0 3px 3px;
+}
+
+form .fake-select [data-option] {
+  transition: 0.3s;
+}
+
+form .fake-select [data-option]:hover {
+  color: white;
+  background-color: var(--hover-color);
+}
