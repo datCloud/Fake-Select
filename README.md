@@ -5,7 +5,7 @@ You can create animations, effects, transtions, in short, anything that is possi
 
 ## Instructions
 * Put the attribute **data-fake** on the select elements you want to customize.
-* Call the "fake-select" plugin (needs [jQuery](https://jquery.com/))
+* Call the **fake-select** plugin (needs [jQuery](https://jquery.com/))
 ```js
 $("[data-fake]").fakeSelect();
 ```
